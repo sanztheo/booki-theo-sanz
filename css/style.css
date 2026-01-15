@@ -597,8 +597,8 @@ footer {
     /* Filters mobile - grille 2x2 */
     .filters {
         display: flex;
-        flex-wrap: wrap;
-        gap: 20px 10px;
+        flex-direction: column;
+        gap: 20px;
     }
 
     .filters-label {
@@ -607,7 +607,14 @@ footer {
         margin-bottom: 0;
     }
 
+    .filters-buttons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
     .filter-btn {
+        flex: 0 0 calc(50% - 5px);
         width: calc(50% - 5px);
         height: 50px;
         padding: 4px 19px;
