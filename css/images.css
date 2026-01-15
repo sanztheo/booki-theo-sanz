@@ -1,0 +1,18 @@
+/****** Images Object Position ***********/
+
+/* Activités */
+.img-vieux-port {
+    object-position: 50% 30%;
+}
+
+.img-fort-pomegues {
+    object-position: 50% 50%;
+}
+
+.img-calanques {
+    object-position: 50% 50%;
+}
+
+.img-notre-dame {
+    object-position: center 30%;
+}

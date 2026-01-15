@@ -497,7 +497,6 @@ footer {
     .activites-cards a:nth-child(3) .activity-card img,
     .activites-cards a:nth-child(4) .activity-card img {
         height: 200px;
-        object-position: 50% 20%;
     }
 }
 
