@@ -138,12 +138,16 @@ ul {
     margin-bottom: 30px;
 }
 
+
 .filters-label {
     font-size: 18px;
     font-weight: 700;
     margin-right: 15px;
 }
+.filters-buttons {
+    display: flex;
 
+}
 .filter-btn {
     display: flex;
     align-items: center;
@@ -156,6 +160,8 @@ ul {
     font-weight: 700;
     cursor: pointer;
     transition: background-color 0.2s;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .filter-btn:hover {
@@ -413,17 +419,24 @@ ul {
 /****** Footer ***********/
 footer {
     background-color: var(--main-bg-color);
-    padding: 45px;
+
+
 }
 
 .footer-content {
+    justify-content: space-around;
     display: flex;
+;
     gap: 80px;
 }
 
 .footer-section h3 {
+
     font-size: 18px;
     margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .footer-section li {
@@ -442,6 +455,19 @@ footer {
 
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+    .filters {
+        display: flex;
+        flex-direction: column;
+    }
+    .filters-buttons {
+        
+        display: flex;
+        
+    }
+    .filter-btn {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
     .main-container {
         padding: 0 20px;
     }
@@ -467,6 +493,9 @@ footer {
     .populaires-cards a {
         flex: 1;
     }
+    .hebergements-cards a {
+        flex: inherit;
+    }
 
     .populaires-cards img {
         height: 120px;
@@ -485,6 +514,7 @@ footer {
     .activites-cards a:nth-child(3) .activity-card img,
     .activites-cards a:nth-child(4) .activity-card img {
         height: 200px;
+        object-position: 50% 20%;
     }
 }
 
