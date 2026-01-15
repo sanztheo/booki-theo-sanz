@@ -399,23 +399,6 @@ ul {
     font-size: 16px;
 }
 
-/* Different heights for activities */
-.activites-cards a:nth-child(1) .activity-card img {
-    height: 380px;
-}
-
-.activites-cards a:nth-child(2) .activity-card img {
-    height: 340px;
-}
-
-.activites-cards a:nth-child(3) .activity-card img {
-    height: 340px;
-}
-
-.activites-cards a:nth-child(4) .activity-card img {
-    height: 380px;
-}
-
 /****** Footer ***********/
 footer {
     background-color: var(--main-bg-color);
