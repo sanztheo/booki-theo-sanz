@@ -438,19 +438,6 @@ footer {
 
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
-    .filters {
-        display: flex;
-        flex-direction: column;
-    }
-    .filters-buttons {
-        
-        display: flex;
-        
-    }
-    .filter-btn {
-        margin-right: 15px;
-        margin-left: 15px;
-    }
     .main-container {
         padding: 0 20px;
     }
