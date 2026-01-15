@@ -259,6 +259,7 @@ ul {
 }
 
 .hebergements-cards a {
+    flex: 0 0 29%;
     width: calc(33.333% - 20px);
 }
 
@@ -281,6 +282,7 @@ ul {
     padding: 0 15px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     gap: 8px;
 }
 
