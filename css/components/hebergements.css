@@ -1,0 +1,48 @@
+/****** Hebergements ***********/
+.hebergements {
+    width: 65%;
+}
+
+.hebergements-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.hebergements-cards a {
+    flex: 0 0 29%;
+    width: calc(33.333% - 20px);
+}
+
+.hebergements-cards .card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 0 0 15px 0;
+}
+
+.hebergements-cards .card img {
+    width: 100%;
+    height: 124px;
+    border: 5px solid white;
+    border-radius: 20px 20px 0 0;
+}
+
+.hebergements-cards .card-content {
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.hebergements-cards .card-rating {
+    margin-top: 0;
+}
+
+.show-more {
+    font-size: 18px;
+    font-weight: 700;
+}
