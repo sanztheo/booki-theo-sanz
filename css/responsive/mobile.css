@@ -26,8 +26,7 @@
         border-bottom: 2px solid var(--main-bg-color);
     }
 
-    .nav-link:hover,
-    .nav-link:first-child {
+    .nav-link:hover {
         color: var(--main-color);
         border-bottom-color: var(--main-color);
     }
@@ -94,7 +93,7 @@
     /* Filters mobile - grille 2x2 */
     .filters {
         display: flex;
-        flex-direction: column;
+
         gap: 20px;
     }
 
@@ -105,6 +104,7 @@
     }
 
     .filters-buttons {
+        width: 100%;
         display: flex;
         flex-wrap: wrap;
         gap: 10px;

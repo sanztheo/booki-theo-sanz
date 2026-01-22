@@ -48,4 +48,20 @@
     .activites-cards a:nth-child(4) .activity-card img {
         height: 200px;
     }
+       /* Filters mobile - grille 2x2 */
+    .filters {
+        display: flex;
+        gap: 20px;
+    }
+
+    .filters-label {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+
+    .filters-buttons {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
